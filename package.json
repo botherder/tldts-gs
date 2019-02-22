@@ -1,0 +1,35 @@
+{
+    "name": "tldts-gs",
+    "version": "1.0",
+    "description": "tldts for Google Apps Script",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/botherder/tldts-gs.git"
+    },
+    "keywords": [
+        "google",
+        "gas"
+    ],
+    "author": "Claudio Guarnieri",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/botherder/tldts-gs/issues"
+    },
+    "homepage": "https://github.com/botherder/tldts-gs#readme",
+    "dependencies": {
+        "tldts": "^3.1.2"
+    },
+    "devDependencies": {
+        "babel-preset-gas": "latest",
+        "babel-webpack-plugin": "latest",
+        "copy-webpack-plugin": "latest",
+        "gas-webpack-plugin": "latest",
+        "webpack": "latest",
+        "webpack-cli": "latest"
+    }
+}
