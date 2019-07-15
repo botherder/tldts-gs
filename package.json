@@ -1,6 +1,6 @@
 {
     "name": "tldts-gs",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "tldts for Google Apps Script",
     "main": "src/index.js",
     "scripts": {
@@ -25,11 +25,9 @@
         "tldts": "^3.1.2"
     },
     "devDependencies": {
-        "babel-preset-gas": "latest",
-        "babel-webpack-plugin": "latest",
         "copy-webpack-plugin": "latest",
-        "gas-webpack-plugin": "latest",
-        "webpack": "latest",
-        "webpack-cli": "latest"
+        "gas-webpack-plugin": "^1.0.2",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3"
     }
 }
